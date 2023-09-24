@@ -3,60 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Style/index.css">
-    <link rel="stylesheet" href="Style/slider.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Album</title>
 </head>
 <body>
+    <header>
+        <img src="Images/LogoAtv.jpg" alt="Logo da Minha Empresa">
+        <nav>
+          <a href="Bluelock.html">Blue Lock</a>
+          <a href="Danganronpa.html">Danganronpa</a>
+          <a href="Chainsaw.html">Chainsaw Man</a>
+          <a href="Haikyuu.html">Haikyuu</a>
+          <a href="Jujutsukaisen.html">Jujutsu Kaisen</a>
+          <a href="KimetsunoYaiba.html">Kimetsu no Yaiba</a>
+          <a href="Onepiece.html">One Piece</a>
+          <a href="Onepunchman.html">One Punch Man</a>
+        </nav>
+      </header>
     <h1>Destaque</h1>
-    <div class="highlight-slider">
-        <!-- Slides -->
-        <input type="radio" class="slide-radio" name="highlight-slider" id="slide1" checked>
-        <input type="radio" class="slide-radio" name="highlight-slider" id="slide2">
-        <input type="radio" class="slide-radio" name="highlight-slider" id="slide3">
-        <input type="radio" class="slide-radio" name="highlight-slider" id="slide4">
-        <input type="radio" class="slide-radio" name="highlight-slider" id="slide5">
-        <input type="radio" class="slide-radio" name="highlight-slider" id="slide6">
-        <input type="radio" class="slide-radio" name="highlight-slider" id="slide7">
-        <input type="radio" class="slide-radio" name="highlight-slider" id="slide8">
-        <div class="highlight-slide">
-            <img src="Images/Jjk.jpg" alt="Destaque 1">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/ChainsawMan.jpg" class="d-block w-100" alt="ChainsawMan">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/BlueLock.jpeg" class="d-block w-100" alt="BlueLock">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/Danganronpa.jpg" class="d-block w-100" alt="Danganronpa">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/Haikyuu.jpg" class="d-block w-100" alt="Haikyuu">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/Juju.jpg" class="d-block w-100" alt="Jujutsukaisen">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/KimetsunoYaiba.jpg" class="d-block w-100" alt="KimetsunoYaiba">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/OnePiece.jpg" class="d-block w-100" alt="OnePiece">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/OnePunch.jpg" class="d-block w-100" alt="Onepunchman">
+          </div>
         </div>
-        <div class="highlight-slide">
-            <img src="Images/KimetsunoYaiba.jpg" alt="Destaque 2">
-        </div>
-        <div class="highlight-slide">
-            <img src="Images/BlueLock.jpeg" alt="Destaque 3">
-        </div>
-        
-        <div class="highlight-slide">
-            <img src="Images/Haikyuu.jpg" alt="Destaque 4">
-        </div>
-        <div class="highlight-slide">
-            <img src="Images/ChainsawMan.jpg" alt="Destaque 5">
-        </div>
-        <div class="highlight-slide">
-            <img src="Images/Danganronpa.jpg" alt="Destaque 6">
-        </div>
-        <div class="highlight-slide">
-            <img src="Images/OnePunch.jpg" alt="Destaque 7">
-        </div>
-        <div class="highlight-slide">
-            <img src="Images/OnePiece.jpg" alt="Destaque 8">
-        </div>
-        
-        <!-- Controles de navegação -->
-        <div class="slider-nav">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
-            <label for="slide4"></label>
-            <label for="slide5"></label>
-            <label for="slide6"></label>
-            <label for="slide7"></label>
-            <label for="slide8"></label>
-        </div>
-    </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </button>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      </div>
     <h1>Mapa</h1>
     <div id="map"></div>
 
@@ -90,6 +94,9 @@
             <a href="KimetsunoYaiba.html">
                 <img src="Images/KimetsunoYaiba.jpg" alt="KimetsunoYaiba">
                 <h2>Kimetsu no Yaiba</h2>
+                <p>
+                    fofi
+                </p>
             </a>
         </div>
         <div class="album">
@@ -137,7 +144,7 @@
     </div>
     <footer>
         <p>&copy; 2023 Rodrigo Sérgio Alves da Silva</p>
-        <p>Créditos: ... (insira os créditos aqui)</p>
+        
       </footer>
 </body>
 </html>

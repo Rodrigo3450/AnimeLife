@@ -110,3 +110,36 @@ footer {
     bottom: 0;
     width: 100%;
   }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header img {
+    width: 100px; /* Ajuste o tamanho da logo conforme necessário */
+    height: auto; /* Garante a proporção correta */
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  header nav {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  #carouselExampleFade {
+    max-width: 600px; /* Defina a largura máxima do carrossel */
+    margin: 0 auto; /* Centralize o carrossel */
+  }
+  
+  .carousel-item img {
+    max-width: 100%; /* Ajuste a largura máxima das imagens para 100% */
+    height: auto; /* Garanta a proporção correta */
+  }

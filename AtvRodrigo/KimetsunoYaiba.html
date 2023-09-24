@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="Style/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimetsu no Yaiba</title>
+</head>
+<body>
+    <div class="page">
+        <h1>Kimetsu no Yaiba</h1>
+
+        <img src="Images/DemonSl.jpg">
+        <h3>Descrição</h3>
+        <p></p> <!--Escrever sobre o anime-->
+        <h3>localização</h3><!--colocar a localização-->
+        <h3>data do registro</h3> <!--buscar data do registro-->
+    </div>
+    <h1>Itens (fotos/vídeos)</h1>
+    <div class="container">                    
+            <!-- Imagem Tanjiro -->
+            <form class="album">
+                <img src="Images/Tanjiro.jpg" alt="Tanjiro" id="Tanjiro">
+
+                <!-- Quadro de descrição -->
+                <div class="descricao-quadro" id="descricao-quadro-Tanjiro">
+                    <p class="descricao-texto">Tanjiro Kamado respiração da Água</p>
+                </div>
+
+                <script>
+                    // Captura a imagem e o quadro de descrição pelo ID
+                    const imagemTanjiro = document.getElementById("Tanjiro");
+                    const descricaoQuadroTanjiro = document.getElementById("descricao-quadro-Tanjiro");
+
+                    // Quando a imagem é clicada, exibe o quadro de descrição
+                    imagemTanjiro.addEventListener("click", () => {
+                        descricaoQuadroTanjiro.style.display = "block";
+                    });
+
+                    // Quando o quadro de descrição é clicado, ele desaparece
+                    descricaoQuadroTanjiro.addEventListener("click", () => {
+                        descricaoQuadroTanjiro.style.display = "none";
+                    });
+                </script>
+            </form>
+            
+            <!-- Imagem Rengoku -->
+            <form class="album">
+                <img src="Images/Rengoku.jpg" alt="Rengoku, o Hashira do fogo" id="RengokuHashiraDoFogo">
+                
+                <div class="descricao-quadro" id="descricao-quadro-rengoku-hashira-do-fogo">
+                    <p class="descricao-texto">Rengoku, o Hashira do fogo</p>
+                </div>
+                
+                <script>
+                    const imagemRengokuHashiraDoFogo = document.getElementById("RengokuHashiraDoFogo");
+                    const descricaoQuadroRengokuHashiraDoFogo = document.getElementById("descricao-quadro-rengoku-hashira-do-fogo");
+                    imagemRengokuHashiraDoFogo.addEventListener("click", () => {
+                        descricaoQuadroRengokuHashiraDoFogo.style.display = "block";
+                    });
+                    descricaoQuadroRengokuHashiraDoFogo.addEventListener("click", () => {
+                        descricaoQuadroRengokuHashiraDoFogo.style.display = "none";
+                    });
+                </script>
+            </form>
+            
+                    <form class="album">
+                        <img src="Images/uzui.jpg" alt="Uzui, Hashira do som" id="UzuiHashiraDoSom">
+                    
+                        <div class="descricao-quadro" id="descricao-quadro-uzui-hashira-do-som">
+                            <p class="descricao-texto">Uzui, Hashira do som</p>
+                        </div>
+                    
+                        <script>
+                            const imagemUzuiHashiraDoSom = document.getElementById("UzuiHashiraDoSom");
+                            const descricaoQuadroUzuiHashiraDoSom = document.getElementById("descricao-quadro-uzui-hashira-do-som");
+                            imagemUzuiHashiraDoSom.addEventListener("click", () => {
+                                descricaoQuadroUzuiHashiraDoSom.style.display = "block";
+                            });
+                            descricaoQuadroUzuiHashiraDoSom.addEventListener("click", () => {
+                                descricaoQuadroUzuiHashiraDoSom.style.display = "none";
+                            });
+                        </script>
+                    </form>
+                    <form class="album">
+                        <img src="Images/Tomiyoka.jpg" alt="Tomioka Giyu, Hashira da Água" id="TomiokaGiyuHashiraDaAgua">
+                    
+                        <div class="descricao-quadro" id="descricao-quadro-tomioka-giyu-hashira-da-agua">
+                            <p class="descricao-texto">Tomioka Giyu, Hashira da Água</p>
+                        </div>
+                    
+                        <script>
+                            const imagemTomiokaGiyuHashiraDaAgua = document.getElementById("TomiokaGiyuHashiraDaAgua");
+                            const descricaoQuadroTomiokaGiyuHashiraDaAgua = document.getElementById("descricao-quadro-tomioka-giyu-hashira-da-agua");
+                            imagemTomiokaGiyuHashiraDaAgua.addEventListener("click", () => {
+                                descricaoQuadroTomiokaGiyuHashiraDaAgua.style.display = "block";
+                            });
+                            descricaoQuadroTomiokaGiyuHashiraDaAgua.addEventListener("click", () => {
+                                descricaoQuadroTomiokaGiyuHashiraDaAgua.style.display = "none";
+                            });
+                        </script>
+                    </form>
+                    <form class="album">
+                        <img src="Images/Yorichi.jpg" alt="Yorichi no passado de Muzan em Kimetsu no Yaiba" id="YorichiNoPassadoDeMuzan">
+                    
+                        <div class="descricao-quadro" id="descricao-quadro-yorichi-no-passado-de-muzan">
+                            <p class="descricao-texto">Yorichi no passado de Muzan em Kimetsu no Yaiba</p>
+                        </div>
+                    
+                        <script>
+                            const imagemYorichiNoPassadoDeMuzan = document.getElementById("YorichiNoPassadoDeMuzan");
+                            const descricaoQuadroYorichiNoPassadoDeMuzan = document.getElementById("descricao-quadro-yorichi-no-passado-de-muzan");
+                            imagemYorichiNoPassadoDeMuzan.addEventListener("click", () => {
+                                descricaoQuadroYorichiNoPassadoDeMuzan.style.display = "block";
+                            });
+                            descricaoQuadroYorichiNoPassadoDeMuzan.addEventListener("click", () => {
+                                descricaoQuadroYorichiNoPassadoDeMuzan.style.display = "none";
+                            });
+                        </script>
+                    </form>
+                    <form class="album">
+                        <img src="Images/mitsuri_kanroji eobanai_iguro_.jpg" alt="Mitsuri e Obanai, Hashiras em Kimetsu no Yaiba" id="MitsuriEObanaiHashiras">
+                    
+                        <div class="descricao-quadro" id="descricao-quadro-mitsuri-e-obanai-hashiras">
+                            <p class="descricao-texto">Mitsuri e Obanai, Hashiras em Kimetsu no Yaiba</p>
+                        </div>
+                    
+                        <script>
+                            const imagemMitsuriEObanaiHashiras = document.getElementById("MitsuriEObanaiHashiras");
+                            const descricaoQuadroMitsuriEObanaiHashiras = document.getElementById("descricao-quadro-mitsuri-e-obanai-hashiras");
+                            imagemMitsuriEObanaiHashiras.addEventListener("click", () => {
+                                descricaoQuadroMitsuriEObanaiHashiras.style.display = "block";
+                            });
+                            descricaoQuadroMitsuriEObanaiHashiras.addEventListener("click", () => {
+                                descricaoQuadroMitsuriEObanaiHashiras.style.display = "none";
+                            });
+                        </script>
+                    </form>
+                    <form class="album">
+                        <img src="Images/Shinobu.jpg" alt="Shinobu Kocho, Hashira da Flor em Kimetsu no Yaiba" id="ShinobuKochoHashiraDaFlor">
+                    
+                        <div class="descricao-quadro" id="descricao-quadro-shinobu-kocho-hashira-da-flor">
+                            <p class="descricao-texto">Shinobu Kocho, Hashira da Flor em Kimetsu no Yaiba</p>
+                        </div>
+                    
+                        <script>
+                            const imagemShinobuKochoHashiraDaFlor = document.getElementById("ShinobuKochoHashiraDaFlor");
+                            const descricaoQuadroShinobuKochoHashiraDaFlor = document.getElementById("descricao-quadro-shinobu-kocho-hashira-da-flor");
+                            imagemShinobuKochoHashiraDaFlor.addEventListener("click", () => {
+                                descricaoQuadroShinobuKochoHashiraDaFlor.style.display = "block";
+                            });
+                            descricaoQuadroShinobuKochoHashiraDaFlor.addEventListener("click", () => {
+                                descricaoQuadroShinobuKochoHashiraDaFlor.style.display = "none";
+                            });
+                        </script>
+                    </form>
+                    <form class="album">
+                        <img src="Images/Kanao.jpg" alt="Kanao, discípula de Shinobu em Kimetsu no Yaiba" id="KanaoDiscipulaDeShinobu">
+                    
+                        <div class="descricao-quadro" id="descricao-quadro-kanao-discipula-de-shinobu">
+                            <p class="descricao-texto">Kanao, discípula de Shinobu em Kimetsu no Yaiba</p>
+                        </div>
+                    
+                        <script>
+                            const imagemKanaoDiscipulaDeShinobu = document.getElementById("KanaoDiscipulaDeShinobu");
+                            const descricaoQuadroKanaoDiscipulaDeShinobu = document.getElementById("descricao-quadro-kanao-discipula-de-shinobu");
+                            imagemKanaoDiscipulaDeShinobu.addEventListener("click", () => {
+                                descricaoQuadroKanaoDiscipulaDeShinobu.style.display = "block";
+                            });
+                            descricaoQuadroKanaoDiscipulaDeShinobu.addEventListener("click", () => {
+                                descricaoQuadroKanaoDiscipulaDeShinobu.style.display = "none";
+                            });
+                        </script>
+                    </form>
+                    <form class="album">
+                        <img src="Images/Nezuko.jpg" alt="Nezuko usando sua Kekkijutsu em Kimetsu no Yaiba" id="NezukoKekkijutsu">
+                    
+                        <div class="descricao-quadro" id="descricao-quadro-nezuko-kekkijutsu">
+                            <p class="descricao-texto">Nezuko usando sua Kekkijutsu em Kimetsu no Yaiba</p>
+                        </div>
+                    
+                        <script>
+                            const imagemNezukoKekkijutsu = document.getElementById("NezukoKekkijutsu");
+                            const descricaoQuadroNezukoKekkijutsu = document.getElementById("descricao-quadro-nezuko-kekkijutsu");
+                            imagemNezukoKekkijutsu.addEventListener("click", () => {
+                                descricaoQuadroNezukoKekkijutsu.style.display = "block";
+                            });
+                            descricaoQuadroNezukoKekkijutsu.addEventListener("click", () => {
+                                descricaoQuadroNezukoKekkijutsu.style.display = "none";
+                            });
+                        </script>
+                    </form>
+                    <form class="album">
+                        <img src="Images/Shinazugawa.jpg" alt="Shinazugawa, Hashira do Vento em Kimetsu no Yaiba" id="ShinazugawaHashiraDoVento">
+                    
+                        <div class="descricao-quadro" id="descricao-quadro-shinazugawa-hashira-do-vento">
+                            <p class="descricao-texto">Shinazugawa, Hashira do Vento em Kimetsu no Yaiba</p>
+                        </div>
+                    
+                        <script>
+                            const imagemShinazugawaHashiraDoVento = document.getElementById("ShinazugawaHashiraDoVento");
+                            const descricaoQuadroShinazugawaHashiraDoVento = document.getElementById("descricao-quadro-shinazugawa-hashira-do-vento");
+                            imagemShinazugawaHashiraDoVento.addEventListener("click", () => {
+                                descricaoQuadroShinazugawaHashiraDoVento.style.display = "block";
+                            });
+                            descricaoQuadroShinazugawaHashiraDoVento.addEventListener("click", () => {
+                                descricaoQuadroShinazugawaHashiraDoVento.style.display = "none";
+                            });
+                        </script>
+                    </form>
+                    <form class="album">
+                        <img src="Images/Muzan.jpg" alt="Muzan, o principal vilão em Kimetsu no Yaiba" id="MuzanOPrincipalVilao">
+                    
+                        <div class="descricao-quadro" id="descricao-quadro-muzan-o-principal-vilao">
+                            <p class="descricao-texto">Muzan, o principal vilão em Kimetsu no Yaiba</p>
+                        </div>
+                    
+                        <script>
+                            const imagemMuzanOPrincipalVilao = document.getElementById("MuzanOPrincipalVilao");
+                            const descricaoQuadroMuzanOPrincipalVilao = document.getElementById("descricao-quadro-muzan-o-principal-vilao");
+                            imagemMuzanOPrincipalVilao.addEventListener("click", () => {
+                                descricaoQuadroMuzanOPrincipalVilao.style.display = "block";
+                            });
+                            descricaoQuadroMuzanOPrincipalVilao.addEventListener("click", () => {
+                                descricaoQuadroMuzanOPrincipalVilao.style.display = "none";
+                            });
+                        </script>
+                    </form>
+                    <form class="album">
+                        <img src="Images/kokushibo.jpg" alt="Kokushibo, Lua Superior 1 em Kimetsu no Yaiba" id="KokushiboLuaSuperior1">
+                    
+                        <div class="descricao-quadro" id="descricao-quadro-kokushibo-lua-superior-1">
+                            <p class="descricao-texto">Kokushibo, Lua Superior 1 em Kimetsu no Yaiba</p>
+                        </div>
+                    
+                        <script>
+                            const imagemKokushiboLuaSuperior1 = document.getElementById("KokushiboLuaSuperior1");
+                            const descricaoQuadroKokushiboLuaSuperior1 = document.getElementById("descricao-quadro-kokushibo-lua-superior-1");
+                            imagemKokushiboLuaSuperior1.addEventListener("click", () => {
+                                descricaoQuadroKokushiboLuaSuperior1.style.display = "block";
+                            });
+                            descricaoQuadroKokushiboLuaSuperior1.addEventListener("click", () => {
+                                descricaoQuadroKokushiboLuaSuperior1.style.display = "none";
+                            });
+                        </script>
+                    </form>       
+    </div>
+</body>
+</html>

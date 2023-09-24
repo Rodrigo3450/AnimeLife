@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="Style/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujutsu Kaisen</title>
+</head>
+<body>
+    <div class="page">
+        <h1>Jujutsu Kaisen</h1>
+
+        <img src="Images/Juj.jpg">
+        <h3>Descrição</h3>
+        <p></p> <!--Escrever sobre o anime-->
+        <h3>localização</h3><!--colocar a localização-->
+        <h3>data do registro</h3> <!--buscar data do registro-->
+    </div>
+    
+        <h1>Itens (fotos/vídeos)</h1>
+        <div class="container">   
+            <form class="album">
+                <img src="Images/gojo.jpg" alt="tanjiro" id="gojo">
+
+                <!-- Quadro de descrição -->
+                <div class="descricao-quadro" id="descricao-quadro">
+                    <p class="descricao-texto">Satoru Gojo lançando vazio roxo</p>
+                </div>
+
+                <script>
+                    // Captura a imagem e o quadro de descrição pelo ID
+                    
+
+                    // Quando a imagem é clicada, exibe o quadro de descrição
+                    imagem.addEventListener("click", () => {
+                        descricaoQuadro.style.display = "block";
+                    });
+
+                    // Quando o quadro de descrição é clicado, ele desaparece
+                    descricaoQuadro.addEventListener("click", () => {
+                        descricaoQuadro.style.display = "none";
+                    });
+                </script>
+
+            </form>
+            <form class="album">
+                <img src="Images/geto.jpg" alt="geto" id="geto">
+            
+                <div class="descricao-quadro" id="descricao-quadro-geto">
+                    <p class="descricao-texto">Geto, o antagonista</p>
+                </div>
+            
+                <script>
+                    const imagemGeto = document.getElementById("geto");
+                    const descricaoQuadroGeto = document.getElementById("descricao-quadro-geto");
+                    imagemGeto.addEventListener("click", () => {
+                        descricaoQuadroGeto.style.display = "block";
+                    });
+                    descricaoQuadroGeto.addEventListener("click", () => {
+                        descricaoQuadroGeto.style.display = "none";
+                    });
+                </script>
+            </form>
+            <form class="album">
+                <img src="Images/NobaraKugisaki.jpg" alt="Nobara Kugisaki" id="NobaraKugisaki">
+            
+                <div class="descricao-quadro" id="descricao-quadro-nobara-kugisaki">
+                    <p class="descricao-texto">Nobara usando a ressonância</p>
+                </div>
+            
+                <script>
+                    const imagemNobaraKugisaki = document.getElementById("NobaraKugisaki");
+                    const descricaoQuadroNobaraKugisaki = document.getElementById("descricao-quadro-nobara-kugisaki");
+                    imagemNobaraKugisaki.addEventListener("click", () => {
+                        descricaoQuadroNobaraKugisaki.style.display = "block";
+                    });
+                    descricaoQuadroNobaraKugisaki.addEventListener("click", () => {
+                        descricaoQuadroNobaraKugisaki.style.display = "none";
+                    });
+                </script>
+            </form>
+            <form class="album">
+                <img src="Images/Nanami.jpg" alt="Nanami" id="Nanami">
+            
+                <div class="descricao-quadro" id="descricao-quadro-nanami">
+                    <p class="descricao-texto">Nanami fazendo sua "hora extra"</p>
+                </div>
+            
+                <script>
+                    const imagemNanami = document.getElementById("Nanami");
+                    const descricaoQuadroNanami = document.getElementById("descricao-quadro-nanami");
+                    imagemNanami.addEventListener("click", () => {
+                        descricaoQuadroNanami.style.display = "block";
+                    });
+                    descricaoQuadroNanami.addEventListener("click", () => {
+                        descricaoQuadroNanami.style.display = "none";
+                    });
+                </script>
+            </form>
+            <form class="album">
+                <img src="Images/RyomenSukuna.jpeg" alt="Ryomen Sukuna" id="RyomenSukuna">
+            
+                <div class="descricao-quadro" id="descricao-quadro-ryomen-sukuna">
+                    <p class="descricao-texto">Sukuna expansão de domínio</p>
+                </div>
+            
+                <script>
+                    const imagemRyomenSukuna = document.getElementById("RyomenSukuna");
+                    const descricaoQuadroRyomenSukuna = document.getElementById("descricao-quadro-ryomen-sukuna");
+                    imagemRyomenSukuna.addEventListener("click", () => {
+                        descricaoQuadroRyomenSukuna.style.display = "block";
+                    });
+                    descricaoQuadroRyomenSukuna.addEventListener("click", () => {
+                        descricaoQuadroRyomenSukuna.style.display = "none";
+                    });
+                </script>
+            </form>
+            <form class="album">
+                <img src="Images/MakiZenin.jpg" alt="Maki Zenin" id="MakiZenin">
+            
+                <div class="descricao-quadro" id="descricao-quadro-maki-zenin">
+                    <p class="descricao-texto">Maki treinando</p>
+                </div>
+            
+                <script>
+                    const imagemMakiZenin = document.getElementById("MakiZenin");
+                    const descricaoQuadroMakiZenin = document.getElementById("descricao-quadro-maki-zenin");
+                    imagemMakiZenin.addEventListener("click", () => {
+                        descricaoQuadroMakiZenin.style.display = "block";
+                    });
+                    descricaoQuadroMakiZenin.addEventListener("click", () => {
+                        descricaoQuadroMakiZenin.style.display = "none";
+                    });
+                </script>
+            </form>
+            <form class="album">
+                <img src="Images/TojiFushiguro.jpeg" alt="Toji Fushiguro" id="TojiFushiguro">
+            
+                <div class="descricao-quadro" id="descricao-quadro-toji-fushiguro">
+                    <p class="descricao-texto">Toji lutando contra o Gojo</p>
+                </div>
+            
+                <script>
+                    const imagemTojiFushiguro = document.getElementById("TojiFushiguro");
+                    const descricaoQuadroTojiFushiguro = document.getElementById("descricao-quadro-toji-fushiguro");
+                    imagemTojiFushiguro.addEventListener("click", () => {
+                        descricaoQuadroTojiFushiguro.style.display = "block";
+                    });
+                    descricaoQuadroTojiFushiguro.addEventListener("click", () => {
+                        descricaoQuadroTojiFushiguro.style.display = "none";
+                    });
+                </script>
+            </form>
+            <form class="album">
+                <img src="Images/ShoukoIeiri.jpeg" alt="Shouko Ieiri" id="ShoukoIeiri">
+            
+                <div class="descricao-quadro" id="descricao-quadro-shouko-ieiri">
+                    <p class="descricao-texto">Shouko na saga do passado</p>
+                </div>
+            
+                <script>
+                    const imagemShoukoIeiri = document.getElementById("ShoukoIeiri");
+                    const descricaoQuadroShoukoIeiri = document.getElementById("descricao-quadro-shouko-ieiri");
+                    imagemShoukoIeiri.addEventListener("click", () => {
+                        descricaoQuadroShoukoIeiri.style.display = "block";
+                    });
+                    descricaoQuadroShoukoIeiri.addEventListener("click", () => {
+                        descricaoQuadroShoukoIeiri.style.display = "none";
+                    });
+                </script>
+            </form>
+            <form class="album">
+                <img src="Images/KasumiMiwa.jpeg" alt="Kasumi Miwa" id="KasumiMiwa">
+            
+                <div class="descricao-quadro" id="descricao-quadro-kasumi-miwa">
+                    <p class="descricao-texto">Miwa técnica do novo domínio simples</p>
+                </div>
+            
+                <script>
+                    const imagemKasumiMiwa = document.getElementById("KasumiMiwa");
+                    const descricaoQuadroKasumiMiwa = document.getElementById("descricao-quadro-kasumi-miwa");
+                    imagemKasumiMiwa.addEventListener("click", () => {
+                        descricaoQuadroKasumiMiwa.style.display = "block";
+                    });
+                    descricaoQuadroKasumiMiwa.addEventListener("click", () => {
+                        descricaoQuadroKasumiMiwa.style.display = "none";
+                    });
+                </script>
+            </form>
+            <form class="album">
+                <img src="Images/Inumaki.jpg" alt="Inumaki" id="Inumaki">
+            
+                <div class="descricao-quadro" id="descricao-quadro-inumaki">
+                    <p class="descricao-texto">Inumaki com uma das sombras de Fushiguro</p>
+                </div>
+            
+                <script>
+                    const imagemInumaki = document.getElementById("Inumaki");
+                    const descricaoQuadroInumaki = document.getElementById("descricao-quadro-inumaki");
+                    imagemInumaki.addEventListener("click", () => {
+                        descricaoQuadroInumaki.style.display = "block";
+                    });
+                    descricaoQuadroInumaki.addEventListener("click", () => {
+                        descricaoQuadroInumaki.style.display = "none";
+                    });
+                </script>
+            </form>
+            <form class="album">
+                <img src="Images/YutaOkkotsu.jpg" alt="Yuta Okkotsu" id="YutaOkkotsu">
+            
+                <div class="descricao-quadro" id="descricao-quadro-yuta-okkotsu">
+                    <p class="descricao-texto">Yuta Okkotsu em Jujutsu Kaisen 0</p>
+                </div>
+            
+                <script>
+                    const imagemYutaOkkotsu = document.getElementById("YutaOkkotsu");
+                    const descricaoQuadroYutaOkkotsu = document.getElementById("descricao-quadro-yuta-okkotsu");
+                    imagemYutaOkkotsu.addEventListener("click", () => {
+                        descricaoQuadroYutaOkkotsu.style.display = "block";
+                    });
+                    descricaoQuadroYutaOkkotsu.addEventListener("click", () => {
+                        descricaoQuadroYutaOkkotsu.style.display = "none";
+                    });
+                </script>
+            </form>
+            <form class="album">
+                <img src="Images/AoiToudo.jpg" alt="Aoi Todo" id="AoiTodo">
+            
+                <div class="descricao-quadro" id="descricao-quadro-aoi-todo">
+                    <p class="descricao-texto">Aoi Toudo com sua amada Takada-chan</p>
+                </div>
+            
+                <script>
+                    const imagemAoiTodo = document.getElementById("AoiTodo");
+                    const descricaoQuadroAoiTodo = document.getElementById("descricao-quadro-aoi-todo");
+                    imagemAoiTodo.addEventListener("click", () => {
+                        descricaoQuadroAoiTodo.style.display = "block";
+                    });
+                    descricaoQuadroAoiTodo.addEventListener("click", () => {
+                        descricaoQuadroAoiTodo.style.display = "none";
+                    });
+                </script>
+            </form>
+        </div>
+</body>

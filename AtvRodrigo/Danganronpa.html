@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="Style/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danganronpa</title>
+</head>
+<body>
+    <div class="page">
+        <h1>Danganronpa</h1>
+
+        <img src="Images/Danganronpa.jpg">
+        <h3>Descrição</h3>
+        <p></p> <!--Escrever sobre o anime-->
+        <h3>localização</h3><!--colocar a localização-->
+        <h3>data do registro</h3> <!--buscar data do registro-->
+    </div>
+    
+        <h1>Itens (fotos/vídeos)</h1>
+        <div class="container">   
+                <form class="album">
+                    <img src="Images/EnoshimaJunko.jpg" alt="Junko" id="Junko">
+
+                    <!-- Quadro de descrição -->
+                    <div class="descricao-quadro" id="descricao-quadro">
+                        <p class="descricao-texto">Enoshima Junko no teste da primeira temporada</p>
+                    </div>
+
+                    <script>
+                        // Captura a imagem e o quadro de descrição pelo ID
+                        
+
+                        // Quando a imagem é clicada, exibe o quadro de descrição
+                        imagem.addEventListener("click", () => {
+                            descricaoQuadro.style.display = "block";
+                        });
+
+                        // Quando o quadro de descrição é clicado, ele desaparece
+                        descricaoQuadro.addEventListener("click", () => {
+                            descricaoQuadro.style.display = "none";
+                        });
+                    </script>
+
+                </form>
+                <form class="album">
+                    <img src="Images/Kyoukoemaizono.jpg" alt="Kyouko e Maizono" id="KyoukoMaizono">
+                
+                    <div class="descricao-quadro" id="descricao-quadro-kyouko-maizono">
+                        <p class="descricao-texto">Kyouko e Maizono na primeira temporada</p>
+                    </div>
+                
+                    <script>
+                        const imagemKyoukoMaizono = document.getElementById("KyoukoMaizono");
+                        const descricaoQuadroKyoukoMaizono = document.getElementById("descricao-quadro-kyouko-maizono");
+                        imagemKyoukoMaizono.addEventListener("click", () => {
+                            descricaoQuadroKyoukoMaizono.style.display = "block";
+                        });
+                        descricaoQuadroKyoukoMaizono.addEventListener("click", () => {
+                            descricaoQuadroKyoukoMaizono.style.display = "none";
+                        });
+                    </script>
+                </form>
+                <form class="album">
+                    <img src="Images/ChiakiNanami.jpg" alt="Chiaki Nanami" id="ChiakiNanami">
+                
+                    <div class="descricao-quadro" id="descricao-quadro-chiaki-nanami">
+                        <p class="descricao-texto">Chiaki Nanami no segundo jogo da franquia</p>
+                    </div>
+                
+                    <script>
+                        const imagemChiakiNanami = document.getElementById("ChiakiNanami");
+                        const descricaoQuadroChiakiNanami = document.getElementById("descricao-quadro-chiaki-nanami");
+                        imagemChiakiNanami.addEventListener("click", () => {
+                            descricaoQuadroChiakiNanami.style.display = "block";
+                        });
+                        descricaoQuadroChiakiNanami.addEventListener("click", () => {
+                            descricaoQuadroChiakiNanami.style.display = "none";
+                        });
+                    </script>
+                </form>
+                <form class="album">
+                    <img src="Images/NagitoKomaeda.jpg" alt="Nagito Komaeda" id="NagitoKomaeda">
+                
+                    <div class="descricao-quadro" id="descricao-quadro-nagito-komaeda">
+                        <p class="descricao-texto">Nagito Komaeda durante o segundo jogo da franquia</p>
+                    </div>
+                
+                    <script>
+                        const imagemNagitoKomaeda = document.getElementById("NagitoKomaeda");
+                        const descricaoQuadroNagitoKomaeda = document.getElementById("descricao-quadro-nagito-komaeda");
+                        imagemNagitoKomaeda.addEventListener("click", () => {
+                            descricaoQuadroNagitoKomaeda.style.display = "block";
+                        });
+                        descricaoQuadroNagitoKomaeda.addEventListener("click", () => {
+                            descricaoQuadroNagitoKomaeda.style.display = "none";
+                        });
+                    </script>
+                </form>
+                <form class="album">
+                    <img src="Images/IbukiMioda.jpeg" alt="Ibuki Mioda" id="IbukiMioda">
+                
+                    <div class="descricao-quadro" id="descricao-quadro-ibuki-mioda">
+                        <p class="descricao-texto">Ibuki Mioda durante o segundo jogo da franquia</p>
+                    </div>
+                
+                    <script>
+                        const imagemIbukiMioda = document.getElementById("IbukiMioda");
+                        const descricaoQuadroIbukiMioda = document.getElementById("descricao-quadro-ibuki-mioda");
+                        imagemIbukiMioda.addEventListener("click", () => {
+                            descricaoQuadroIbukiMioda.style.display = "block";
+                        });
+                        descricaoQuadroIbukiMioda.addEventListener("click", () => {
+                            descricaoQuadroIbukiMioda.style.display = "none";
+                        });
+                    </script>
+                </form>
+                <form class="album">
+                    <img src="Images/CelestiaLudenberg.jpg" alt="Celestia Ludenberg" id="CelestiaLudenberg">
+                
+                    <div class="descricao-quadro" id="descricao-quadro-celestia-ludenberg">
+                        <p class="descricao-texto">Celestia Ludenberg com seus amigos na escola da esperança durante a primeira temporada</p>
+                    </div>
+                
+                    <script>
+                        const imagemCelestiaLudenberg = document.getElementById("CelestiaLudenberg");
+                        const descricaoQuadroCelestiaLudenberg = document.getElementById("descricao-quadro-celestia-ludenberg");
+                        imagemCelestiaLudenberg.addEventListener("click", () => {
+                            descricaoQuadroCelestiaLudenberg.style.display = "block";
+                        });
+                        descricaoQuadroCelestiaLudenberg.addEventListener("click", () => {
+                            descricaoQuadroCelestiaLudenberg.style.display = "none";
+                        });
+                    </script>
+                </form>
+                <form class="album">
+                    <img src="Images/ByakuyaTogami.jpg" alt="Byakuya Togami" id="ByakuyaTogami">
+                
+                    <div class="descricao-quadro" id="descricao-quadro-byakuya-togami">
+                        <p class="descricao-texto">Byakuya Togami durante o primeiro jogo da franquia</p>
+                    </div>
+                
+                    <script>
+                        const imagemByakuyaTogami = document.getElementById("ByakuyaTogami");
+                        const descricaoQuadroByakuyaTogami = document.getElementById("descricao-quadro-byakuya-togami");
+                        imagemByakuyaTogami.addEventListener("click", () => {
+                            descricaoQuadroByakuyaTogami.style.display = "block";
+                        });
+                        descricaoQuadroByakuyaTogami.addEventListener("click", () => {
+                            descricaoQuadroByakuyaTogami.style.display = "none";
+                        });
+                    </script>
+                </form>
+                <form class="album">
+                    <img src="Images/Monokuma.jpg" alt="Monokuma" id="Monokuma">
+                
+                    <div class="descricao-quadro" id="descricao-quadro-monokuma">
+                        <p class="descricao-texto">Monokuma, um dos personagens principais de todas as franquias</p>
+                    </div>
+                
+                    <script>
+                        const imagemMonokuma = document.getElementById("Monokuma");
+                        const descricaoQuadroMonokuma = document.getElementById("descricao-quadro-monokuma");
+                        imagemMonokuma.addEventListener("click", () => {
+                            descricaoQuadroMonokuma.style.display = "block";
+                        });
+                        descricaoQuadroMonokuma.addEventListener("click", () => {
+                            descricaoQuadroMonokuma.style.display = "none";
+                        });
+                    </script>
+                </form>
+                <form class="album">
+                    <img src="Images/KokichiOma.jpg" alt="Kokichi Oma" id="KokichiOma">
+                
+                    <div class="descricao-quadro" id="descricao-quadro-kokichi-oma">
+                        <p class="descricao-texto">Kokichi Oma durante o terceiro jogo da franquia</p>
+                    </div>
+                
+                    <script>
+                        const imagemKokichiOma = document.getElementById("KokichiOma");
+                        const descricaoQuadroKokichiOma = document.getElementById("descricao-quadro-kokichi-oma");
+                        imagemKokichiOma.addEventListener("click", () => {
+                            descricaoQuadroKokichiOma.style.display = "block";
+                        });
+                        descricaoQuadroKokichiOma.addEventListener("click", () => {
+                            descricaoQuadroKokichiOma.style.display = "none";
+                        });
+                    </script>
+                </form>
+                <form class="album">
+                    <img src="Images/Danganronpa1.jpg" alt="Danganronpa: Trigger Happy Havoc" id="Danganronpa1">
+                
+                    <div class="descricao-quadro" id="descricao-quadro-danganronpa1">
+                        <p class="descricao-texto">Danganronpa: Trigger Happy Havoc</p>
+                    </div>
+                
+                    <script>
+                        const imagemDanganronpa1 = document.getElementById("Danganronpa1");
+                        const descricaoQuadroDanganronpa1 = document.getElementById("descricao-quadro-danganronpa1");
+                        imagemDanganronpa1.addEventListener("click", () => {
+                            descricaoQuadroDanganronpa1.style.display = "block";
+                        });
+                        descricaoQuadroDanganronpa1.addEventListener("click", () => {
+                            descricaoQuadroDanganronpa1.style.display = "none";
+                        });
+                    </script>
+                </form>
+                <form class="album">
+                    <img src="Images/Danganronpa2.jpg" alt="Danganronpa 2: Goodbye Despair" id="Danganronpa2">
+                
+                    <div class="descricao-quadro" id="descricao-quadro-danganronpa2">
+                        <p class="descricao-texto">Danganronpa 2: Goodbye Despair</p>
+                    </div>
+                
+                    <script>
+                        const imagemDanganronpa2 = document.getElementById("Danganronpa2");
+                        const descricaoQuadroDanganronpa2 = document.getElementById("descricao-quadro-danganronpa2");
+                        imagemDanganronpa2.addEventListener("click", () => {
+                            descricaoQuadroDanganronpa2.style.display = "block";
+                        });
+                        descricaoQuadroDanganronpa2.addEventListener("click", () => {
+                            descricaoQuadroDanganronpa2.style.display = "none";
+                        });
+                    </script>
+                </form>
+                <form class="album">
+                    <img src="Images/Danganronpa(1).jpg" alt="Danganronpa V3: Killing Harmony" id="DanganronpaV3">
+                
+                    <div class="descricao-quadro" id="descricao-quadro-danganronpa-v3">
+                        <p class="descricao-texto">Danganronpa V3: Killing Harmony</p>
+                    </div>
+                
+                    <script>
+                        const imagemDanganronpaV3 = document.getElementById("DanganronpaV3");
+                        const descricaoQuadroDanganronpaV3 = document.getElementById("descricao-quadro-danganronpa-v3");
+                        imagemDanganronpaV3.addEventListener("click", () => {
+                            descricaoQuadroDanganronpaV3.style.display = "block";
+                        });
+                        descricaoQuadroDanganronpaV3.addEventListener("click", () => {
+                            descricaoQuadroDanganronpaV3.style.display = "none";
+                        });
+                    </script>
+                </form>            
+    </div>
+</body>

@@ -1,0 +1,99 @@
+.descricao-quadro{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.descricao-texto{
+    font-size: 16px;
+    text-align: center;
+} 
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    grid-gap: 2px; /* Espaçamento entre os formulários */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #023047
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #0c91a8;
+}
+
+.formIndex {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+
+.areaIndex img {
+    width: 200px;
+    height: 200px;
+}
+
+.formIndex h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formIndex p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.formIndex a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+.formIndex a:hover {
+    color: #241190;
+}
+
+
+
+/* Estilos para o álbum */
+.album {
+    width: 300px; /* Largura desejada para o álbum */
+    margin: 20px; /* Margens para espaçamento */
+    padding: 10px; /* Preenchimento interno */
+    border: 2px solid #ccc; /* Borda com cor cinza */
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #f0f0f0; /* Cor de fundo */
+    text-align: center; /* Alinhamento de texto centralizado */
+}
+
+/* Estilos para as imagens do álbum */
+.album img {
+    width: 200px; /* Preenche a largura do álbum */
+    height: 200px; /* Altura máxima das imagens */
+    object-fit: cover; /* Redimensionamento das imagens para cobrir o espaço */
+    border-radius: 5px; /* Borda arredondada para as imagens */
+}

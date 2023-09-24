@@ -1,0 +1,44 @@
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.album-slide {
+    flex: 0 0 30%; 
+    margin-right: 20px; 
+    transition: transform 0.5s ease; 
+}
+
+.album-slide img {
+    max-width: 100%;
+}
+
+
+.slide-radio {
+    display: none;
+}
+
+.slider-nav {
+    display: flex;
+}
+
+.slider-nav label {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+.slide-radio:checked + .album-slide {
+    transform: translateX(0);
+}
+
+
+.slide-radio:checked + .album-slide + .slider-nav label {
+    background-color: #f00; 
+}

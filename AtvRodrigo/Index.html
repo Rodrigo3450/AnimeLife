@@ -3,11 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Style/index.css">
+    <link rel="stylesheet" href="Style/slider.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Album</title>
 </head>
 <body>
     <h1>Destaque</h1>
+    <div class="highlight-slider">
+        <!-- Slides -->
+        <input type="radio" class="slide-radio" name="highlight-slider" id="slide1" checked>
+        <input type="radio" class="slide-radio" name="highlight-slider" id="slide2">
+        <input type="radio" class="slide-radio" name="highlight-slider" id="slide3">
+        <input type="radio" class="slide-radio" name="highlight-slider" id="slide4">
+        <input type="radio" class="slide-radio" name="highlight-slider" id="slide5">
+        <input type="radio" class="slide-radio" name="highlight-slider" id="slide6">
+        <input type="radio" class="slide-radio" name="highlight-slider" id="slide7">
+        <input type="radio" class="slide-radio" name="highlight-slider" id="slide8">
+        <div class="highlight-slide">
+            <img src="Images/Jjk.jpg" alt="Destaque 1">
+        </div>
+        <div class="highlight-slide">
+            <img src="Images/KimetsunoYaiba.jpg" alt="Destaque 2">
+        </div>
+        <div class="highlight-slide">
+            <img src="Images/BlueLock.jpeg" alt="Destaque 3">
+        </div>
+        
+        <div class="highlight-slide">
+            <img src="Images/Haikyuu.jpg" alt="Destaque 4">
+        </div>
+        <div class="highlight-slide">
+            <img src="Images/ChainsawMan.jpg" alt="Destaque 5">
+        </div>
+        <div class="highlight-slide">
+            <img src="Images/Danganronpa.jpg" alt="Destaque 6">
+        </div>
+        <div class="highlight-slide">
+            <img src="Images/OnePunch.jpg" alt="Destaque 7">
+        </div>
+        <div class="highlight-slide">
+            <img src="Images/OnePiece.jpg" alt="Destaque 8">
+        </div>
+        
+        <!-- Controles de navegação -->
+        <div class="slider-nav">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+            <label for="slide6"></label>
+            <label for="slide7"></label>
+            <label for="slide8"></label>
+        </div>
+    </div>
+    <h1>Mapa</h1>
+    <div id="map"></div>
+
+  <script>
+    // Função para inicializar o mapa
+    function initMap() {
+      // Coordenadas de Tóquio, Japão
+      var tokyo = { lat: 35.682839, lng: 139.759455 };
+
+      // Criação do mapa
+      var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14, // Nível de zoom
+          center: tokyo // Centro do mapa
+      });
+
+      // Marcador no mapa
+      var marker = new google.maps.Marker({
+          position: tokyo,
+          map: map,
+          title: 'Tóquio, Japão'
+      });
+    }
+  </script>
+
+  <!-- Inclusão da API do Google Maps com a sua chave -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDO_7mphqqY7Gm1PdIsi9rcuNrmH__hYOk&callback=initMap"></script>
+
     <h1> Lista de Álbuns</h1>
     <div class="container">
         <div class="album">
@@ -59,6 +135,9 @@
             </a>
         </div>
     </div>
-
+    <footer>
+        <p>&copy; 2023 Rodrigo Sérgio Alves da Silva</p>
+        <p>Créditos: ... (insira os créditos aqui)</p>
+      </footer>
 </body>
 </html>

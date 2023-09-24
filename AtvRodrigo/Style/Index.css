@@ -8,6 +8,11 @@
     padding: 10px;
     border: 1px solid #ccc;
 }
+/* Estilo para o contêiner do mapa */
+#map {
+    height: 400px;
+    width: 100%;
+}
 .descricao-texto{
     font-size: 16px;
     text-align: center;
@@ -97,3 +102,11 @@ body {
     object-fit: cover; /* Redimensionamento das imagens para cobrir o espaço */
     border-radius: 5px; /* Borda arredondada para as imagens */
 }
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

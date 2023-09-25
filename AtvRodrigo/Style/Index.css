@@ -16,41 +16,19 @@
     width: 100%;
 }
 
-/* Restante do seu código */
-/* ... */
-
-
-
-
-
-
-
-.descricao-texto{
-    font-size: 16px;
-    text-align: center;
-} 
-.container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
-    grid-gap: 2px; /* Espaçamento entre os formulários */
-}
-
-body {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #023047
+img {
+    max-width: 100%; /* Ajusta a largura máxima para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços indesejados abaixo da imagem */
 }
 
 .page {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    justify-content: center;
     width: 100%;
-    height: 100vh;
-    background-color: #0c91a8;
+    padding: 20px; /* Adicione algum espaçamento */
+    box-sizing: border-box; /* Certifique-se que o padding não aumenta a largura */
 }
 
 .formIndex {
@@ -58,62 +36,32 @@ body {
     flex-direction: column;
     background-color: #fff;
     border-radius: 7px;
-    padding: 40px;
+    padding: 20px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
-    gap: 5px
+    gap: 10px;
+    max-width: 100%; /* Largura máxima */
+    width: 400px; /* Largura inicial */
+    box-sizing: border-box; /* Certifique-se que o padding não aumenta a largura */
 }
 
-.areaIndex img {
-    width: 200px;
-    height: 200px;
-}
-
-.formIndex h1 {
-    padding: 0;
-    margin: 0;
-    font-weight: 500;
-    font-size: 2.3em;
-}
-
-.formIndex p {
-    display: inline-block;
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 25px;
-}
-
-.formIndex a {
-    display: inline-block;
-    margin-bottom: 20px;
-    font-size: 13px;
-    color: #555;
-    transition: all linear 160ms;
-}
-
-.formIndex a:hover {
-    color: #241190;
-}
-
-
-
-/* Estilos para o álbum */
 .album {
-    width: 300px; /* Largura desejada para o álbum */
-    margin: 20px; /* Margens para espaçamento */
-    padding: 10px; /* Preenchimento interno */
-    border: 2px solid #ccc; /* Borda com cor cinza */
-    border-radius: 5px; /* Borda arredondada */
-    background-color: #f0f0f0; /* Cor de fundo */
-    text-align: center; /* Alinhamento de texto centralizado */
+    width: 100%; /* Largura total */
+    margin: 10px 0; /* Margens superior e inferior */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-align: center;
+    box-sizing: border-box;
 }
 
-/* Estilos para as imagens do álbum */
 .album img {
-    width: 200px; /* Preenche a largura do álbum */
-    height: 200px; /* Altura máxima das imagens */
-    object-fit: cover; /* Redimensionamento das imagens para cobrir o espaço */
-    border-radius: 5px; /* Borda arredondada para as imagens */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
 }
+
 footer {
     background-color: #f0f0f0;
     text-align: center;
@@ -121,41 +69,39 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
-  header {
+}
+
+header {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
-  }
-  
-  header img {
-    width: 100px; /* Ajuste o tamanho da logo conforme necessário */
-    height: auto; /* Garante a proporção correta */
+}
+
+header img {
+    width: 100px;
+    height: auto;
     display: inline-block;
     vertical-align: middle;
-  }
-  
-  header nav {
+}
+
+header nav {
     display: inline-block;
     margin-left: 20px;
-  }
-  
-  header nav a {
+}
+
+header nav a {
     color: #fff;
     margin: 0 10px;
     text-decoration: none;
-  }
-  #carouselExampleFade {
-    max-width: 600px; /* Defina a largura máxima do carrossel */
-    margin: 0 auto; /* Centralize o carrossel */
-  }
-  
-  .carousel-item img {
-    max-width: 100%; /* Ajuste a largura máxima das imagens para 100% */
-    height: auto; /* Garanta a proporção correta */
-  }
-  img {
+}
+
+#carouselExampleFade {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-item img {
     max-width: 100%;
     height: auto;
 }

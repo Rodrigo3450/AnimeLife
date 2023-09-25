@@ -1,18 +1,30 @@
-.descricao-quadro{
+.descricao-quadro {
     display: none;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
     border: 1px solid #ccc;
+    width: 80%; /* Agora usa uma largura percentual */
+    max-width: 300px; /* E uma largura máxima */
 }
-/* Estilo para o contêiner do mapa */
+
 #map {
-    height: 400px;
+    height: 300px; /* Ajuste conforme necessário */
     width: 100%;
 }
+
+/* Restante do seu código */
+/* ... */
+
+
+
+
+
+
+
 .descricao-texto{
     font-size: 16px;
     text-align: center;
@@ -143,3 +155,7 @@ footer {
     max-width: 100%; /* Ajuste a largura máxima das imagens para 100% */
     height: auto; /* Garanta a proporção correta */
   }
+  img {
+    max-width: 100%;
+    height: auto;
+}
